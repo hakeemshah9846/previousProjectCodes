@@ -1,0 +1,142 @@
+{
+    "LoginPage": {
+        "UsernameLabel": "Username",
+        "PasswordLabel": "Password",
+        "UsernamePlaceholder": "Add Username",
+        "PasswordPlaceholder": "Add Password",
+        "LoginPageButton": "Login",
+        "LoginPagePolicy": "Username Jenny Wilson Password Add Password By logging in, you agree to our Privacy Policy and Terms of Use. Login",
+        "usernameError": "Username is required",
+        "InvalidUsername": "Username is invalid",
+        "PasswordError": "Password is required",
+        "NewUser": "Register",
+        "ForgetPassoword": "Forget passowrd"
+    },
+    "RegisterPage": {
+        "firstNameLabel": "First name",
+        "LastNameLabel": "Last name",
+        "email": "Email",
+        "image": "image",
+        "Phone": "phone",
+        "role": "role",
+        "department": "department",
+        "section": "section",
+        "branch": "branch",
+        "New_User": "new_user"
+    },
+    "Header": {
+        "menu1": "Add a user",
+        "Login": "Login",
+        "userList": "User List",
+        "menu2":"Create job",
+        "dropdown": {
+            "logout": "logout",
+            "profile": "profile"
+        }
+    },
+    "AddUser": {
+        "AddUser": "Add User",
+        "Discard": "Discard",
+        "Save": "Add User",
+        "FirstName": "FirstName",
+        "LastName": "Last name",
+        "section": "Section",
+        "Email": "Email",
+        "Phone": "Phone",
+        "department": "Department",
+        "role": "Role",
+        "Branch": "Branch",
+        "firstnameError": "First name is required",
+        "lastNameError": "Last name is required",
+        "emailError": "Email is required",
+        "phoneError": "Phone number is required",
+        "invalidEmail": "Email is invalid",
+        "invalidDepartment": "Department is required",
+        "invalidRole": "Role is required",
+        "invalidBranch": "Branch is required",
+        "invalidPhone": "Invalid Phone number",
+        "invalidSection": "Section is required"
+    },
+    "UsersPage": {
+        "Heading": "Users List",
+        "TopButton": "Add New User",
+        "FilterButton": "Filter",
+        "WarningForRole": "Are You sure you want to delete this role?",
+        "NavigationLink1": "Edit",
+        "NavigationLink2": "View",
+        "NavAlt1": "Edit",
+        "NavAlt2": "View"
+    },
+    "EditPage": {
+        "TopButton1":"Cancel",
+        "TopButton2":"Save",
+        "Title":"Edit user",
+        "label1":"First name",
+        "label2":"Last name",
+        "label3":"Email",
+        "label4":"phone",
+        "label5":"Department",
+        "label6":"Role",
+        "label7":"Branch",
+        "label8":"Section",
+        "Errors": {
+            "invalidDepartment": "Department is required",
+            "invalidRole": "Role is required",
+            "invalidBranch": "Branch is required",
+            "invalidSection": "Section is required"
+        }
+    },
+    "userLogin":{
+        "Title":"First time login",
+        "label1":"Email",
+        "label2":"password",
+        "submit":"Submit",
+        "ForgotPassword":"Forgot Password"
+    },
+    "forgotPassowordPage":{
+        "Title":"Request new Password",
+        "label":"email",
+        "btn1":"Submit"
+    },
+    "ResetForgotPassoword":{
+        "Title":"Reset Password",
+        "label1":"password",
+        "label2":"Confirm password",
+        "btn":"Submit",
+        "warning1":"Password should be greater than 6 characters",
+        "warning2":"Password should be lessthan 30 characters",
+        "warning3":"Password is required",
+        "warning4":"Password must match",
+        "warning5":"Confirm password is required" 
+    },
+    "JobPage":{
+        "title":"Job details",
+        "label1":"Job title",
+        "label2":"Job type",
+        "label3":"job status",
+        "label4":"Requested By",
+        "label5":"Requested by entity",
+        "label6":"Requested by department",
+        "label7":"Requested by section",
+        "label8":"Job Request comment",
+        "label9":"Confidentiality",
+        "label10":"Require sample",
+        "label11":"Require Edits",
+        "label12":"Document Type",
+        "label13":"Document Name",
+        "label14":"Document Mode",
+        "label15":"Requied Delivery date",
+        "label16":"Delivery Mode",
+        "label17":"Delivery To",
+        "label18":"Deliver to Entity",
+        "label19":"Deliver to department",
+        "label20":"Deliver to Section",
+        "label21":"Required Cover",
+        "label22":"Require Finishing",
+        "error1":"Job Title is required",
+        "error2":"Job type is required",
+        "error3":"Job status is requried",
+        "error4":"Client is required"
+    }
+
+}

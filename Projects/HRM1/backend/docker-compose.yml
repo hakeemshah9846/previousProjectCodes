@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  ph_db:
+    image: mongo
+    ports:
+      - $MONGODB_MACHINE_PORT:$MONGODB_PORT
+    volumes:
+      - ph-db-volume:/data/db
+  ph_server:
+    depends_on:
+      - ph_db
+    build: ./app
+    restart: unless-stopped
+    env_file: ./.env
+    ports:
+      - $NODE_PORT:$NODE_MACHINE_PORT
+    stdin_open: true
+    tty: true
+    volumes:
+      - ph-server-volume:/app/uploads
+
+# volumes: 
+#   ph-db-volume:
+#     driver: local
+#     driver_opts:
+#       o: bind
+#       type: none
+#       device: /home/backend/db-volume
+#   ph-server-volume:
+#     driver: local
+#     driver_opts:
+#       o: bind
+#       type: none
+#       device: /home/backend/server-volume
+
+
+volumes: 
+   ph-db-volume:
+   ph-server-volume:

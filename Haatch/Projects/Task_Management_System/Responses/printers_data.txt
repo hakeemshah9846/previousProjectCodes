@@ -1,0 +1,555 @@
+{
+    "success": true,
+    "statusCode": 200,
+    "data": [
+        {
+            "id": 1,
+            "name": "Nuvera144",
+            "paper_type": [
+                {
+                    "paper.id": 1,
+                    "paper.paper_name": "A4 80 Normal"
+                },
+                {
+                    "paper.id": 2,
+                    "paper.paper_name": "A4 120 Normal"
+                },
+                {
+                    "paper.id": 5,
+                    "paper.paper_name": "A4 140 Glossy"
+                },
+                {
+                    "paper.id": 6,
+                    "paper.paper_name": "A4 170 Glossy"
+                },
+                {
+                    "paper.id": 10,
+                    "paper.paper_name": "A3 80 Normal"
+                },
+                {
+                    "paper.id": 11,
+                    "paper.paper_name": "A3 160 Normal"
+                },
+                {
+                    "paper.id": 12,
+                    "paper.paper_name": "A3 200 Normal"
+                },
+                {
+                    "paper.id": 15,
+                    "paper.paper_name": "A3 140 Glossy"
+                },
+                {
+                    "paper.id": 16,
+                    "paper.paper_name": "A3 170 Glossy"
+                },
+                {
+                    "paper.id": 22,
+                    "paper.paper_name": "A4 Sticker"
+                },
+                {
+                    "paper.id": 23,
+                    "paper.paper_name": "A3 300 Conqueror"
+                },
+                {
+                    "paper.id": 24,
+                    "paper.paper_name": "A3 160 Conqueror"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "iGen150 Mono",
+            "paper_type": [
+                {
+                    "paper.id": 1,
+                    "paper.paper_name": "A4 80 Normal"
+                },
+                {
+                    "paper.id": 2,
+                    "paper.paper_name": "A4 120 Normal"
+                },
+                {
+                    "paper.id": 3,
+                    "paper.paper_name": "A4 250 Normal"
+                },
+                {
+                    "paper.id": 4,
+                    "paper.paper_name": "A4 280 Normal"
+                },
+                {
+                    "paper.id": 5,
+                    "paper.paper_name": "A4 140 Glossy"
+                },
+                {
+                    "paper.id": 6,
+                    "paper.paper_name": "A4 170 Glossy"
+                },
+                {
+                    "paper.id": 7,
+                    "paper.paper_name": "A4 210 Glossy"
+                },
+                {
+                    "paper.id": 8,
+                    "paper.paper_name": "A4 250 Glossy"
+                },
+                {
+                    "paper.id": 9,
+                    "paper.paper_name": "A4 250 Conqueror"
+                },
+                {
+                    "paper.id": 10,
+                    "paper.paper_name": "A3 80 Normal"
+                },
+                {
+                    "paper.id": 11,
+                    "paper.paper_name": "A3 160 Normal"
+                },
+                {
+                    "paper.id": 12,
+                    "paper.paper_name": "A3 200 Normal"
+                },
+                {
+                    "paper.id": 13,
+                    "paper.paper_name": "A3 250 Normal"
+                },
+                {
+                    "paper.id": 14,
+                    "paper.paper_name": "A3 280 Normal"
+                },
+                {
+                    "paper.id": 15,
+                    "paper.paper_name": "A3 140 Glossy"
+                },
+                {
+                    "paper.id": 16,
+                    "paper.paper_name": "A3 170 Glossy"
+                },
+                {
+                    "paper.id": 17,
+                    "paper.paper_name": "A3 210 Glossy"
+                },
+                {
+                    "paper.id": 18,
+                    "paper.paper_name": "A3 100 Conqueror"
+                },
+                {
+                    "paper.id": 19,
+                    "paper.paper_name": "XXL 120 Normal"
+                },
+                {
+                    "paper.id": 20,
+                    "paper.paper_name": "XXL 300 Normal"
+                },
+                {
+                    "paper.id": 21,
+                    "paper.paper_name": "SRA3 250 Glossy"
+                },
+                {
+                    "paper.id": 22,
+                    "paper.paper_name": "A4 Sticker"
+                },
+                {
+                    "paper.id": 23,
+                    "paper.paper_name": "A3 300 Conqueror"
+                },
+                {
+                    "paper.id": 24,
+                    "paper.paper_name": "A3 160 Conqueror"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "D110",
+            "paper_type": [
+                {
+                    "paper.id": 1,
+                    "paper.paper_name": "A4 80 Normal"
+                },
+                {
+                    "paper.id": 2,
+                    "paper.paper_name": "A4 120 Normal"
+                },
+                {
+                    "paper.id": 5,
+                    "paper.paper_name": "A4 140 Glossy"
+                },
+                {
+                    "paper.id": 6,
+                    "paper.paper_name": "A4 170 Glossy"
+                },
+                {
+                    "paper.id": 10,
+                    "paper.paper_name": "A3 80 Normal"
+                },
+                {
+                    "paper.id": 11,
+                    "paper.paper_name": "A3 160 Normal"
+                },
+                {
+                    "paper.id": 12,
+                    "paper.paper_name": "A3 200 Normal"
+                },
+                {
+                    "paper.id": 15,
+                    "paper.paper_name": "A3 140 Glossy"
+                },
+                {
+                    "paper.id": 16,
+                    "paper.paper_name": "A3 170 Glossy"
+                },
+                {
+                    "paper.id": 22,
+                    "paper.paper_name": "A4 Sticker"
+                },
+                {
+                    "paper.id": 3,
+                    "paper.paper_name": "A4 250 Normal"
+                },
+                {
+                    "paper.id": 23,
+                    "paper.paper_name": "A3 300 Conqueror"
+                },
+                {
+                    "paper.id": 24,
+                    "paper.paper_name": "A3 160 Conqueror"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "CP1000i Mono",
+            "paper_type": [
+                {
+                    "paper.id": 1,
+                    "paper.paper_name": "A4 80 Normal"
+                },
+                {
+                    "paper.id": 2,
+                    "paper.paper_name": "A4 120 Normal"
+                },
+                {
+                    "paper.id": 3,
+                    "paper.paper_name": "A4 250 Normal"
+                },
+                {
+                    "paper.id": 4,
+                    "paper.paper_name": "A4 280 Normal"
+                },
+                {
+                    "paper.id": 5,
+                    "paper.paper_name": "A4 140 Glossy"
+                },
+                {
+                    "paper.id": 6,
+                    "paper.paper_name": "A4 170 Glossy"
+                },
+                {
+                    "paper.id": 7,
+                    "paper.paper_name": "A4 210 Glossy"
+                },
+                {
+                    "paper.id": 8,
+                    "paper.paper_name": "A4 250 Glossy"
+                },
+                {
+                    "paper.id": 9,
+                    "paper.paper_name": "A4 250 Conqueror"
+                },
+                {
+                    "paper.id": 10,
+                    "paper.paper_name": "A3 80 Normal"
+                },
+                {
+                    "paper.id": 11,
+                    "paper.paper_name": "A3 160 Normal"
+                },
+                {
+                    "paper.id": 12,
+                    "paper.paper_name": "A3 200 Normal"
+                },
+                {
+                    "paper.id": 13,
+                    "paper.paper_name": "A3 250 Normal"
+                },
+                {
+                    "paper.id": 14,
+                    "paper.paper_name": "A3 280 Normal"
+                },
+                {
+                    "paper.id": 15,
+                    "paper.paper_name": "A3 140 Glossy"
+                },
+                {
+                    "paper.id": 16,
+                    "paper.paper_name": "A3 170 Glossy"
+                },
+                {
+                    "paper.id": 17,
+                    "paper.paper_name": "A3 210 Glossy"
+                },
+                {
+                    "paper.id": 18,
+                    "paper.paper_name": "A3 100 Conqueror"
+                },
+                {
+                    "paper.id": 21,
+                    "paper.paper_name": "SRA3 250 Glossy"
+                },
+                {
+                    "paper.id": 22,
+                    "paper.paper_name": "A4 Sticker"
+                },
+                {
+                    "paper.id": 23,
+                    "paper.paper_name": "A3 300 Conqueror"
+                },
+                {
+                    "paper.id": 24,
+                    "paper.paper_name": "A3 160 Conqueror"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "iGen150 Colour",
+            "paper_type": [
+                {
+                    "paper.id": 1,
+                    "paper.paper_name": "A4 80 Normal"
+                },
+                {
+                    "paper.id": 2,
+                    "paper.paper_name": "A4 120 Normal"
+                },
+                {
+                    "paper.id": 3,
+                    "paper.paper_name": "A4 250 Normal"
+                },
+                {
+                    "paper.id": 4,
+                    "paper.paper_name": "A4 280 Normal"
+                },
+                {
+                    "paper.id": 5,
+                    "paper.paper_name": "A4 140 Glossy"
+                },
+                {
+                    "paper.id": 6,
+                    "paper.paper_name": "A4 170 Glossy"
+                },
+                {
+                    "paper.id": 7,
+                    "paper.paper_name": "A4 210 Glossy"
+                },
+                {
+                    "paper.id": 8,
+                    "paper.paper_name": "A4 250 Glossy"
+                },
+                {
+                    "paper.id": 9,
+                    "paper.paper_name": "A4 250 Conqueror"
+                },
+                {
+                    "paper.id": 10,
+                    "paper.paper_name": "A3 80 Normal"
+                },
+                {
+                    "paper.id": 11,
+                    "paper.paper_name": "A3 160 Normal"
+                },
+                {
+                    "paper.id": 12,
+                    "paper.paper_name": "A3 200 Normal"
+                },
+                {
+                    "paper.id": 13,
+                    "paper.paper_name": "A3 250 Normal"
+                },
+                {
+                    "paper.id": 14,
+                    "paper.paper_name": "A3 280 Normal"
+                },
+                {
+                    "paper.id": 15,
+                    "paper.paper_name": "A3 140 Glossy"
+                },
+                {
+                    "paper.id": 16,
+                    "paper.paper_name": "A3 170 Glossy"
+                },
+                {
+                    "paper.id": 17,
+                    "paper.paper_name": "A3 210 Glossy"
+                },
+                {
+                    "paper.id": 18,
+                    "paper.paper_name": "A3 100 Conqueror"
+                },
+                {
+                    "paper.id": 19,
+                    "paper.paper_name": "XXL 120 Normal"
+                },
+                {
+                    "paper.id": 20,
+                    "paper.paper_name": "XXL 300 Normal"
+                },
+                {
+                    "paper.id": 21,
+                    "paper.paper_name": "SRA3 250 Glossy"
+                },
+                {
+                    "paper.id": 22,
+                    "paper.paper_name": "A4 Sticker"
+                },
+                {
+                    "paper.id": 21,
+                    "paper.paper_name": "SRA3 250 Glossy"
+                },
+                {
+                    "paper.id": 24,
+                    "paper.paper_name": "A3 160 Conqueror"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "CP1000i Colour",
+            "paper_type": [
+                {
+                    "paper.id": 1,
+                    "paper.paper_name": "A4 80 Normal"
+                },
+                {
+                    "paper.id": 2,
+                    "paper.paper_name": "A4 120 Normal"
+                },
+                {
+                    "paper.id": 3,
+                    "paper.paper_name": "A4 250 Normal"
+                },
+                {
+                    "paper.id": 4,
+                    "paper.paper_name": "A4 280 Normal"
+                },
+                {
+                    "paper.id": 5,
+                    "paper.paper_name": "A4 140 Glossy"
+                },
+                {
+                    "paper.id": 6,
+                    "paper.paper_name": "A4 170 Glossy"
+                },
+                {
+                    "paper.id": 7,
+                    "paper.paper_name": "A4 210 Glossy"
+                },
+                {
+                    "paper.id": 8,
+                    "paper.paper_name": "A4 250 Glossy"
+                },
+                {
+                    "paper.id": 9,
+                    "paper.paper_name": "A4 250 Conqueror"
+                },
+                {
+                    "paper.id": 10,
+                    "paper.paper_name": "A3 80 Normal"
+                },
+                {
+                    "paper.id": 11,
+                    "paper.paper_name": "A3 160 Normal"
+                },
+                {
+                    "paper.id": 12,
+                    "paper.paper_name": "A3 200 Normal"
+                },
+                {
+                    "paper.id": 13,
+                    "paper.paper_name": "A3 250 Normal"
+                },
+                {
+                    "paper.id": 14,
+                    "paper.paper_name": "A3 280 Normal"
+                },
+                {
+                    "paper.id": 15,
+                    "paper.paper_name": "A3 140 Glossy"
+                },
+                {
+                    "paper.id": 16,
+                    "paper.paper_name": "A3 170 Glossy"
+                },
+                {
+                    "paper.id": 17,
+                    "paper.paper_name": "A3 210 Glossy"
+                },
+                {
+                    "paper.id": 18,
+                    "paper.paper_name": "A3 100 Conqueror"
+                },
+                {
+                    "paper.id": 21,
+                    "paper.paper_name": "SRA3 250 Glossy"
+                },
+                {
+                    "paper.id": 22,
+                    "paper.paper_name": "A4 Sticker"
+                },
+                {
+                    "paper.id": 23,
+                    "paper.paper_name": "A3 300 Conqueror"
+                },
+                {
+                    "paper.id": 24,
+                    "paper.paper_name": "A3 160 Conqueror"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "iGen150 XXL",
+            "paper_type": [
+                {
+                    "paper.id": 19,
+                    "paper.paper_name": "XXL 120 Normal"
+                },
+                {
+                    "paper.id": 20,
+                    "paper.paper_name": "XXL 300 Normal"
+                },
+                {
+                    "paper.id": 22,
+                    "paper.paper_name": "A4 Sticker"
+                },
+                {
+                    "paper.id": 23,
+                    "paper.paper_name": "A3 300 Conqueror"
+                },
+                {
+                    "paper.id": 24,
+                    "paper.paper_name": "A3 160 Conqueror"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "CP1000i Special",
+            "paper_type": [
+                {
+                    "paper.id": 22,
+                    "paper.paper_name": "A4 Sticker"
+                },
+                {
+                    "paper.id": 23,
+                    "paper.paper_name": "A3 300 Conqueror"
+                },
+                {
+                    "paper.id": 24,
+                    "paper.paper_name": "A3 160 Conqueror"
+                }
+            ]
+        }
+    ],
+    "message": "Printers fetched successfully"
+}

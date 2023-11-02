@@ -1,0 +1,1701 @@
+{
+    "success": true,
+    "statusCode": 200,
+    "data": [
+        {
+            "id": 1,
+            "name": "Vishnu Prasad",
+            "department": "ICT",
+            "campus": "amsi",
+            "section": "Administration"
+        },
+        {
+            "id": 2,
+            "name": "Aida Najjar (B)",
+            "department": "Math",
+            "campus": "amsbarsha",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 3,
+            "name": "Ali Jaber",
+            "department": "Administration",
+            "campus": "amsgarhoud",
+            "section": "Grade 5-12 Boys"
+        },
+        {
+            "id": 4,
+            "name": "Aliaa AbouAlTouyour",
+            "department": "Music",
+            "campus": "isas",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 12,
+            "name": "Anas Al Khatib (B)",
+            "department": "Arabic",
+            "campus": "amsbarsha",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 13,
+            "name": "Arwa Al Majali (B)",
+            "department": "IE",
+            "campus": "amsbarsha",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 14,
+            "name": "Ashley Humphrey",
+            "department": "Administration",
+            "campus": "amsbarsha",
+            "section": "Grade 4-12 Girls"
+        },
+        {
+            "id": 17,
+            "name": "Bristo",
+            "department": "ICT",
+            "campus": "amsbarsha",
+            "section": "Administration"
+        },
+        {
+            "id": 18,
+            "name": "Charbel Fakhry",
+            "department": "AMSI",
+            "campus": "amsbarsha",
+            "section": "Administration"
+        },
+        {
+            "id": 20,
+            "name": "Chirine Abo Hamad",
+            "department": "Administration",
+            "campus": "amsbarsha",
+            "section": "Grade 5-12 Boys"
+        },
+        {
+            "id": 23,
+            "name": "Cheryl Haney",
+            "department": "Administration",
+            "campus": "isas",
+            "section": "Head of Section"
+        },
+        {
+            "id": 24,
+            "name": "Daad El Yafi (B)",
+            "department": "English",
+            "campus": "amsbarsha",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 26,
+            "name": "Dalia Chalhoub (B)",
+            "department": "Math",
+            "campus": "amsbarsha",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 27,
+            "name": "Dana Saeed",
+            "department": "Computer Science",
+            "campus": "isas",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 28,
+            "name": "Dany Jarjous",
+            "department": "Administration",
+            "campus": "amsi",
+            "section": ""
+        },
+        {
+            "id": 29,
+            "name": "Diana Mroueh",
+            "department": "Administration",
+            "campus": "amsbarsha",
+            "section": "Grade 4-12 Girls"
+        },
+        {
+            "id": 30,
+            "name": "Dina El Saadi",
+            "department": "Science",
+            "campus": "isas",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 31,
+            "name": "Anjum",
+            "department": "Medical",
+            "campus": "amsbarsha",
+            "section": "Administration"
+        },
+        {
+            "id": 32,
+            "name": "Fadya Wahab",
+            "department": "Arabic",
+            "campus": "isas",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 33,
+            "name": "Faten Obeid(B)",
+            "department": "Arabic",
+            "campus": "amsbarsha",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 34,
+            "name": "Fouad Said(B)",
+            "department": "Math",
+            "campus": "amsbarsha",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 35,
+            "name": "Ghada Dergham (B)",
+            "department": "SS in Arabic",
+            "campus": "amsbarsha",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 36,
+            "name": "George Issa",
+            "department": "Math",
+            "campus": "isas",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 37,
+            "name": "Ghada Dergham (G)",
+            "department": "SS in Arabic",
+            "campus": "amsgarhoud",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 40,
+            "name": "Grace Chammas",
+            "department": "Administration",
+            "campus": "amsbarsha",
+            "section": "KG"
+        },
+        {
+            "id": 41,
+            "name": "Gracia Daaboul",
+            "department": "Administration",
+            "campus": "isas",
+            "section": "Head of Section"
+        },
+        {
+            "id": 43,
+            "name": "Haitham Karam",
+            "department": "Administration",
+            "campus": "amsbarsha",
+            "section": "Grade 5-12 Boys"
+        },
+        {
+            "id": 45,
+            "name": "Hala Bsat",
+            "department": "Administration",
+            "campus": "amsgarhoud",
+            "section": "Grade 1-4"
+        },
+        {
+            "id": 46,
+            "name": "Hana Malouf",
+            "department": "Math",
+            "campus": "amsbarsha",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 47,
+            "name": "Hanan el Ghossain",
+            "department": "Administration",
+            "campus": "amsgarhoud",
+            "section": "Grade 1-4"
+        },
+        {
+            "id": 50,
+            "name": "Helui Khattar",
+            "department": "HR",
+            "campus": "amsbarsha",
+            "section": "Administration"
+        },
+        {
+            "id": 51,
+            "name": "Huma Ahmed",
+            "department": "English",
+            "campus": "isas",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 52,
+            "name": "Iman Shaar",
+            "department": "Administration",
+            "campus": "amsbarsha",
+            "section": "Grade 1-3"
+        },
+        {
+            "id": 53,
+            "name": "Jamil sharaf(B)",
+            "department": "Arabic",
+            "campus": "amsbarsha",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 54,
+            "name": "Joumana Abdo (B)",
+            "department": "Math",
+            "campus": "amsbarsha",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 56,
+            "name": "Kaissar Jarjous",
+            "department": "Accounts",
+            "campus": "amsbarsha",
+            "section": "Administration"
+        },
+        {
+            "id": 57,
+            "name": "karma.alnaccache (B)",
+            "department": "Science",
+            "campus": "amsbarsha",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 60,
+            "name": "Layal Al Sayegh",
+            "department": "Administration",
+            "campus": "amsbarsha",
+            "section": "Grade 1-3"
+        },
+        {
+            "id": 61,
+            "name": "Loubna Salame (B)",
+            "department": "French",
+            "campus": "amsbarsha",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 63,
+            "name": "Manal Faddoul",
+            "department": "ART",
+            "campus": "amsbarsha",
+            "section": "Grade 1-3"
+        },
+        {
+            "id": 64,
+            "name": "Maria Marinou ",
+            "department": "Music",
+            "campus": "isas",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 65,
+            "name": "Marwan  Karout",
+            "department": "ART",
+            "campus": "isas",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 66,
+            "name": "Michel Chammas",
+            "department": "ART",
+            "campus": "amsi",
+            "section": ""
+        },
+        {
+            "id": 67,
+            "name": "Mohammad Dalleh (G)",
+            "department": "IE",
+            "campus": "amsgarhoud",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 68,
+            "name": "Mona bou hamdan",
+            "department": "Administration",
+            "campus": "isas",
+            "section": "Head of Section"
+        },
+        {
+            "id": 88,
+            "name": "Aida Najjar (G)",
+            "department": "Math",
+            "campus": "amsgarhoud",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 91,
+            "name": "Anas Al Khatib (G)",
+            "department": "Arabic",
+            "campus": "amsgarhoud",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 95,
+            "name": "Arwa Al Majali (G)",
+            "department": "IE",
+            "campus": "amsgarhoud",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 107,
+            "name": "Daad El Yafi (G)",
+            "department": "English",
+            "campus": "amsgarhoud",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 108,
+            "name": "Dalia Chalhoub (G)",
+            "department": "Math",
+            "campus": "amsgarhoud",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 109,
+            "name": "Faten  Obeid(G)",
+            "department": "Arabic",
+            "campus": "amsgarhoud",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 110,
+            "name": "Fouad Said (G)",
+            "department": "Math",
+            "campus": "amsgarhoud",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 111,
+            "name": "Hana Maalouf (G)",
+            "department": "Math",
+            "campus": "amsgarhoud",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 112,
+            "name": "jamil Sharaf (G)",
+            "department": "Arabic",
+            "campus": "amsgarhoud",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 113,
+            "name": "Joumana Abdo (G)",
+            "department": "Math",
+            "campus": "amsgarhoud",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 114,
+            "name": "karma al Naccache (G)",
+            "department": "Science",
+            "campus": "amsgarhoud",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 115,
+            "name": "Loubna Salame (G)",
+            "department": "French",
+            "campus": "amsgarhoud",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 117,
+            "name": "Razan Abou Ismail (B)",
+            "department": "Business Studies",
+            "campus": "amsbarsha",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 118,
+            "name": "Razan Abou Ismail (G)",
+            "department": "Business Studies",
+            "campus": "amsgarhoud",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 120,
+            "name": "Nada Moustafa (G)",
+            "department": "Administration",
+            "campus": "amsgarhoud",
+            "section": "Secretary"
+        },
+        {
+            "id": 122,
+            "name": "Sahar  Dorrah",
+            "department": "Administration",
+            "campus": "amsbarsha",
+            "section": "Grade 1-3"
+        },
+        {
+            "id": 123,
+            "name": "Rania Makarem",
+            "department": "Administration",
+            "campus": "amsbarsha",
+            "section": "Grade 5-12 Boys"
+        },
+        {
+            "id": 125,
+            "name": "Rania Makarem (G)",
+            "department": "SS in English",
+            "campus": "amsgarhoud",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 126,
+            "name": "Rita.Moussa",
+            "department": "Administration",
+            "campus": "amsbarsha",
+            "section": "Grade 4-12 Girls"
+        },
+        {
+            "id": 127,
+            "name": "Susan.yun",
+            "department": "Administration",
+            "campus": "amsi",
+            "section": ""
+        },
+        {
+            "id": 128,
+            "name": "Rola Riachi",
+            "department": "Administration",
+            "campus": "amsgarhoud",
+            "section": "Grade 4-12 Girls"
+        },
+        {
+            "id": 129,
+            "name": "Moussa Chahbaz",
+            "department": "Administration",
+            "campus": "amsbarsha",
+            "section": "Grade 5-12 Boys"
+        },
+        {
+            "id": 130,
+            "name": "Omar Hatoum",
+            "department": "Administration",
+            "campus": "amsgarhoud",
+            "section": ""
+        },
+        {
+            "id": 131,
+            "name": "Reda Jichi",
+            "department": "English",
+            "campus": "isas",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 133,
+            "name": "Zeina Osman",
+            "department": "Administration",
+            "campus": "isas",
+            "section": "Head of Section"
+        },
+        {
+            "id": 134,
+            "name": "Nijad Hamade(B)",
+            "department": "Arabic",
+            "campus": "amsbarsha",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 135,
+            "name": "Nijad Hamade(G)",
+            "department": "Arabic",
+            "campus": "amsgarhoud",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 138,
+            "name": "Shaima Al Sakran",
+            "department": "Career Counselor",
+            "campus": "amsbarsha",
+            "section": "Administration"
+        },
+        {
+            "id": 139,
+            "name": "wadih Issa",
+            "department": "Facilities",
+            "campus": "amsbarsha",
+            "section": "Administration"
+        },
+        {
+            "id": 142,
+            "name": "Carole Hiar",
+            "department": "Administration",
+            "campus": "amsgarhoud",
+            "section": ""
+        },
+        {
+            "id": 143,
+            "name": "Mounir el Hayek",
+            "department": "Arabic",
+            "campus": "isas",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 144,
+            "name": "Reem Salloum",
+            "department": "Administration",
+            "campus": "isas",
+            "section": "Secretary"
+        },
+        {
+            "id": 147,
+            "name": "Souhail S. Jabour",
+            "department": "Operation",
+            "campus": "isas",
+            "section": "Administration"
+        },
+        {
+            "id": 148,
+            "name": "    Gracia Daaboul",
+            "department": "Administration",
+            "campus": "isas",
+            "section": "Head of Section"
+        },
+        {
+            "id": 150,
+            "name": "Mireille Kherbawi",
+            "department": "Business Analyst",
+            "campus": "amsbarsha",
+            "section": "Administration"
+        },
+        {
+            "id": 151,
+            "name": "Simon Ayoub",
+            "department": "Operation",
+            "campus": "amsbarsha",
+            "section": "Administration"
+        },
+        {
+            "id": 152,
+            "name": "Suhair Azar",
+            "department": "Administration",
+            "campus": "amsgarhoud",
+            "section": "Grade 1-4"
+        },
+        {
+            "id": 153,
+            "name": "Mohammed Dalleh",
+            "department": "IE",
+            "campus": "isas",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 155,
+            "name": "Nadine Taha",
+            "department": "Administration",
+            "campus": "isas",
+            "section": "KG"
+        },
+        {
+            "id": 156,
+            "name": "Hala Bsat",
+            "department": "Administration",
+            "campus": "isas",
+            "section": "Grade 1-4"
+        },
+        {
+            "id": 157,
+            "name": "Mohammad Dalleh (B)",
+            "department": "IE",
+            "campus": "amsbarsha",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 158,
+            "name": "Nardin Taha",
+            "department": "Administration",
+            "campus": "isas",
+            "section": "KG"
+        },
+        {
+            "id": 159,
+            "name": "Sreejith",
+            "department": "ICT",
+            "campus": "amsbarsha",
+            "section": "Administration"
+        },
+        {
+            "id": 160,
+            "name": "vishnu",
+            "department": "ICT",
+            "campus": "amsbarsha",
+            "section": "Administration"
+        },
+        {
+            "id": 162,
+            "name": "Victor Santos",
+            "department": "Store",
+            "campus": "amsbarsha",
+            "section": "Administration"
+        },
+        {
+            "id": 163,
+            "name": "Sana Farajallah",
+            "department": "ICT",
+            "campus": "amsbarsha",
+            "section": "Administration"
+        },
+        {
+            "id": 164,
+            "name": "Micheline Eid",
+            "department": "Administration",
+            "campus": "amsi",
+            "section": "Administration"
+        },
+        {
+            "id": 165,
+            "name": "Makram Boughanam",
+            "department": "Facilities",
+            "campus": "amsi",
+            "section": "Administration"
+        },
+        {
+            "id": 166,
+            "name": "Sameh Jabr",
+            "department": "Math",
+            "campus": "isas",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 167,
+            "name": "Tamara Akhras",
+            "department": "ICT",
+            "campus": "amsi",
+            "section": "Administration"
+        },
+        {
+            "id": 168,
+            "name": "Sameh Darraj",
+            "department": "Arabic",
+            "campus": "isas",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 169,
+            "name": "Sahar Mohsen",
+            "department": "Administration",
+            "campus": "amsgarhoud",
+            "section": "Secretary"
+        },
+        {
+            "id": 170,
+            "name": "Chantal malo",
+            "department": "ART",
+            "campus": "amsgarhoud",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 171,
+            "name": "Diana el hassan",
+            "department": "ICT",
+            "campus": "amsbarsha",
+            "section": "Administration"
+        },
+        {
+            "id": 173,
+            "name": "Hong Lan",
+            "department": "Mandarin",
+            "campus": "isas",
+            "section": "Head of Section"
+        },
+        {
+            "id": 174,
+            "name": "Lina Juma",
+            "department": "Administration",
+            "campus": "amsi",
+            "section": ""
+        },
+        {
+            "id": 175,
+            "name": "Muhieddine Soubra",
+            "department": "",
+            "campus": "isas",
+            "section": "Administration"
+        },
+        {
+            "id": 177,
+            "name": "Alissar Nasr",
+            "department": "Chief Academic Officer",
+            "campus": "amsi",
+            "section": ""
+        },
+        {
+            "id": 180,
+            "name": "Maguie Jabbour",
+            "department": "HR",
+            "campus": "amsbarsha",
+            "section": "Administration"
+        },
+        {
+            "id": 181,
+            "name": "Rina Salhab",
+            "department": "Science",
+            "campus": "amsbarsha",
+            "section": "Administration"
+        },
+        {
+            "id": 182,
+            "name": "Weam Ajeeb",
+            "department": "Math",
+            "campus": "isas",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 183,
+            "name": "Rima Abdul Ghani",
+            "department": "IE In English",
+            "campus": "isas",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 184,
+            "name": "Lara Freij",
+            "department": "Career Counselor",
+            "campus": "amsgarhoud",
+            "section": "Administration"
+        },
+        {
+            "id": 186,
+            "name": "Ranjith katanguri",
+            "department": "Store",
+            "campus": "amsbarsha",
+            "section": "Administration"
+        },
+        {
+            "id": 188,
+            "name": "George Akhras",
+            "department": "CIO",
+            "campus": "amsi",
+            "section": ""
+        },
+        {
+            "id": 189,
+            "name": "Makram Boughanem",
+            "department": "Facilities",
+            "campus": "amsgarhoud",
+            "section": "Administration"
+        },
+        {
+            "id": 190,
+            "name": "Nada Halaby",
+            "department": "",
+            "campus": "amsgarhoud",
+            "section": "KG"
+        },
+        {
+            "id": 191,
+            "name": "Rasha bou karroum",
+            "department": "Science",
+            "campus": "isas",
+            "section": "Head of Section"
+        },
+        {
+            "id": 192,
+            "name": "Elias Sfeir",
+            "department": "ICT",
+            "campus": "amsi",
+            "section": "Administration"
+        },
+        {
+            "id": 193,
+            "name": "Nadia Halaby",
+            "department": "English",
+            "campus": "amsgarhoud",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 195,
+            "name": "Carolle Kanaan",
+            "department": "English",
+            "campus": "amsgarhoud",
+            "section": "Head of Section"
+        },
+        {
+            "id": 196,
+            "name": "Helui Khattar",
+            "department": "HR",
+            "campus": "amsbarsha",
+            "section": "Administration"
+        },
+        {
+            "id": 201,
+            "name": "Ahmed Zayyar",
+            "department": "Libarary",
+            "campus": "amsbarsha",
+            "section": "Administration"
+        },
+        {
+            "id": 202,
+            "name": "Haifa El Yafi",
+            "department": "HR",
+            "campus": "amsi",
+            "section": "Administration"
+        },
+        {
+            "id": 203,
+            "name": "Charles Hajjar",
+            "department": "",
+            "campus": "amsbarsha",
+            "section": "Grade 5-12 Boys"
+        },
+        {
+            "id": 204,
+            "name": "georgio tahech",
+            "department": "ART",
+            "campus": "amsbarsha",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 205,
+            "name": "Nada Jawhari",
+            "department": "Administration",
+            "campus": "amsgarhoud",
+            "section": "Secretary"
+        },
+        {
+            "id": 206,
+            "name": "Hala Bsa",
+            "department": "Administration",
+            "campus": "amsgarhoud",
+            "section": "Grade 1-4"
+        },
+        {
+            "id": 207,
+            "name": "Randa pharoun",
+            "department": "Administration",
+            "campus": "amsbarsha",
+            "section": "Secretary"
+        },
+        {
+            "id": 208,
+            "name": "Waseem Hasoon",
+            "department": "Facilities",
+            "campus": "isas",
+            "section": "Administration"
+        },
+        {
+            "id": 210,
+            "name": "Joyce Haddad",
+            "department": "French",
+            "campus": "isas",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 211,
+            "name": "Dalia Chalhoub ( ISAS )",
+            "department": "Math",
+            "campus": "isas",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 212,
+            "name": "Ghassan El Turuk",
+            "department": "Science",
+            "campus": "amsbarsha",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 213,
+            "name": "Yaser Alhaj Khalaf",
+            "department": "IE",
+            "campus": "isas",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 214,
+            "name": "Ali Mansour",
+            "department": "Science",
+            "campus": "isas",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 217,
+            "name": "charles hajjar",
+            "department": "Curriculum",
+            "campus": "amsi",
+            "section": "Administration"
+        },
+        {
+            "id": 218,
+            "name": "Youssef Semaan",
+            "department": "Science",
+            "campus": "amsbarsha",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 219,
+            "name": "Charlene Reyes",
+            "department": "Math",
+            "campus": "amsi",
+            "section": "Administration"
+        },
+        {
+            "id": 220,
+            "name": "Samira Al Awadi",
+            "department": "Administration",
+            "campus": "amskhawaneej",
+            "section": "Head of Section"
+        },
+        {
+            "id": 221,
+            "name": "Zeina Osman",
+            "department": "Administration",
+            "campus": "amskhawaneej",
+            "section": "Head of Section"
+        },
+        {
+            "id": 222,
+            "name": "Maya Thoubian",
+            "department": "Science",
+            "campus": "isas",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 223,
+            "name": "Iman Jammoul",
+            "department": "SS in Arabic",
+            "campus": "amsgarhoud",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 224,
+            "name": "Hassan Assad",
+            "department": "Arabic",
+            "campus": "amskhawaneej",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 225,
+            "name": "Sameh Darraj",
+            "department": "Arabic",
+            "campus": "amskhawaneej",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 226,
+            "name": "SAMI",
+            "department": "IE",
+            "campus": "amskhawaneej",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 227,
+            "name": "Haifa Al Hassanieh",
+            "department": "Administration",
+            "campus": "amsbarsha",
+            "section": "Head of Section"
+        },
+        {
+            "id": 228,
+            "name": "Mohammed Dalleh",
+            "department": "IE",
+            "campus": "amskhawaneej",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 229,
+            "name": "Abla Lahbari",
+            "department": "French",
+            "campus": "isas",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 230,
+            "name": "Nijad Hamade",
+            "department": "Arabic",
+            "campus": "amskhawaneej",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 231,
+            "name": "Hanaa Osseiran",
+            "department": "Administration",
+            "campus": "amskhawaneej",
+            "section": "KG"
+        },
+        {
+            "id": 232,
+            "name": "Daad Elyafi",
+            "department": "English",
+            "campus": "amskhawaneej",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 233,
+            "name": "Loubna Salame",
+            "department": "French",
+            "campus": "amskhawaneej",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 234,
+            "name": "Rola Baltaji",
+            "department": "Administration",
+            "campus": "amsgarhoud",
+            "section": "Head of Section"
+        },
+        {
+            "id": 236,
+            "name": "Majd banat",
+            "department": "Arabic-B",
+            "campus": "amsbarsha",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 237,
+            "name": "Alaa Charafedine",
+            "department": "Math",
+            "campus": "amskhawaneej",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 238,
+            "name": "Majd Banat",
+            "department": "Arabic-B",
+            "campus": "amsbarsha",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 239,
+            "name": "Lynne Rafeh",
+            "department": "English",
+            "campus": "amskhawaneej",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 240,
+            "name": "Hanan Al Arigie",
+            "department": "ART",
+            "campus": "amsbarsha",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 241,
+            "name": "Ali Mansour",
+            "department": "Science",
+            "campus": "amskhawaneej",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 242,
+            "name": "Chada Chedid",
+            "department": "ICT",
+            "campus": "amsbarsha",
+            "section": "Administration"
+        },
+        {
+            "id": 243,
+            "name": "Arige Hallal",
+            "department": "Math",
+            "campus": "amsbarsha",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 244,
+            "name": "Tarek El Halabi",
+            "department": "SS in English",
+            "campus": "isas",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 248,
+            "name": "Nour Abou Karroum",
+            "department": "Administration",
+            "campus": "amskhawaneej",
+            "section": "Secretary"
+        },
+        {
+            "id": 249,
+            "name": "Ahmmed Hachem",
+            "department": "SS in Arabic",
+            "campus": "amsbarsha",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 250,
+            "name": "Lara Akouri",
+            "department": "Administration",
+            "campus": "amsbarsha",
+            "section": "Head of Section"
+        },
+        {
+            "id": 251,
+            "name": "",
+            "department": "",
+            "campus": "",
+            "section": "Reception"
+        },
+        {
+            "id": 252,
+            "name": "Sahar Mohsen",
+            "department": "Administration",
+            "campus": "amskhawaneej",
+            "section": "Reception"
+        },
+        {
+            "id": 253,
+            "name": "Dina Alatrash",
+            "department": "Libarary",
+            "campus": "amsbarsha",
+            "section": "Administration"
+        },
+        {
+            "id": 254,
+            "name": "Helene Rbeiz",
+            "department": "Administration",
+            "campus": "amskhawaneej",
+            "section": "Head of Section"
+        },
+        {
+            "id": 255,
+            "name": "Hussam Moussa",
+            "department": "Administration",
+            "campus": "amsi",
+            "section": "Administration"
+        },
+        {
+            "id": 256,
+            "name": "Mohammed Dalleh",
+            "department": "IE",
+            "campus": "amskhawaneej",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 257,
+            "name": "Marwan Karout",
+            "department": "ART",
+            "campus": "amskhawaneej",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 258,
+            "name": "Gebran Jabbour",
+            "department": "Facilities",
+            "campus": "amskhawaneej",
+            "section": "Administration"
+        },
+        {
+            "id": 259,
+            "name": "",
+            "department": "Curriculum",
+            "campus": "isas",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 260,
+            "name": "Abir Karam",
+            "department": "",
+            "campus": "amsgarhoud",
+            "section": "Grade 1-4"
+        },
+        {
+            "id": 261,
+            "name": "Samar Shidiak",
+            "department": "Administration",
+            "campus": "amskhawaneej",
+            "section": "Head of Section"
+        },
+        {
+            "id": 262,
+            "name": "Deanna Weaver",
+            "department": "Curriculum",
+            "campus": "amsi",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 263,
+            "name": "Jamie Lynn Cardwell",
+            "department": "Curriculum",
+            "campus": "isas",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 264,
+            "name": "Reception",
+            "department": "Administration",
+            "campus": "amsbarsha",
+            "section": "Reception"
+        },
+        {
+            "id": 265,
+            "name": "Aline Barakat",
+            "department": "Administration",
+            "campus": "isas",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 266,
+            "name": "Ali AlBunny",
+            "department": "Arabic",
+            "campus": "isas",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 267,
+            "name": "Waed Btadini",
+            "department": "Science",
+            "campus": "amsbarsha",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 268,
+            "name": "",
+            "department": "Math Kg-6",
+            "campus": "",
+            "section": ""
+        },
+        {
+            "id": 269,
+            "name": "Sameh Jabr",
+            "department": "Math Kg-6",
+            "campus": "amskhawaneej",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 270,
+            "name": "Samar El Kantar",
+            "department": "Administration",
+            "campus": "amsgarhoud",
+            "section": "Reception"
+        },
+        {
+            "id": 271,
+            "name": "Corinne Berberi Martin",
+            "department": "ART",
+            "campus": "amsbarsha",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 272,
+            "name": "",
+            "department": "",
+            "campus": "",
+            "section": "Head of Section Grs.9-12 Boys"
+        },
+        {
+            "id": 273,
+            "name": "Wadih Boustany",
+            "department": "Administration",
+            "campus": "amsbarsha",
+            "section": "Head of Section Grs.9-12 Boys"
+        },
+        {
+            "id": 274,
+            "name": "Hanan Mobayed",
+            "department": "ART",
+            "campus": "amsbarsha",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 275,
+            "name": "Ghina Antar",
+            "department": "Administration",
+            "campus": "amsbarsha",
+            "section": "Grade 1-4"
+        },
+        {
+            "id": 276,
+            "name": "Nassab Hamdar",
+            "department": "Administration",
+            "campus": "amsbarsha",
+            "section": "Grade 1-3"
+        },
+        {
+            "id": 277,
+            "name": "Roula El Khatib",
+            "department": "Administration",
+            "campus": "amsgarhoud",
+            "section": "Grade 5-12 Boys"
+        },
+        {
+            "id": 278,
+            "name": "Tina Najjar",
+            "department": "Administration",
+            "campus": "amsbarsha",
+            "section": "Secretary"
+        },
+        {
+            "id": 279,
+            "name": "Jamie Lynn Cardwell",
+            "department": "Curriculum",
+            "campus": "amskhawaneej",
+            "section": "Administration"
+        },
+        {
+            "id": 280,
+            "name": "Gretta",
+            "department": "ART",
+            "campus": "amskhawaneej",
+            "section": "Administration"
+        },
+        {
+            "id": 281,
+            "name": "ILHAM KHAMI",
+            "department": "Administration",
+            "campus": "amskhawaneej",
+            "section": "Secretary"
+        },
+        {
+            "id": 282,
+            "name": "Dalia Nseir",
+            "department": "Administration",
+            "campus": "amskhawaneej",
+            "section": "Administration"
+        },
+        {
+            "id": 283,
+            "name": "Lama Al Sahli",
+            "department": "HR",
+            "campus": "amsi",
+            "section": "Administration"
+        },
+        {
+            "id": 284,
+            "name": "Nadine Atallah",
+            "department": "Administration",
+            "campus": "amsgarhoud",
+            "section": "Grade 1-4"
+        },
+        {
+            "id": 285,
+            "name": "Haitham",
+            "department": "Administration",
+            "campus": "amskhawaneej",
+            "section": "Head of Section Grs.9-12 Boys"
+        },
+        {
+            "id": 286,
+            "name": "Hoda Hijazi",
+            "department": "ART",
+            "campus": "amsbarsha",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 287,
+            "name": "",
+            "department": "",
+            "campus": "",
+            "section": "Library"
+        },
+        {
+            "id": 288,
+            "name": "",
+            "department": "",
+            "campus": "",
+            "section": "Librararian"
+        },
+        {
+            "id": 289,
+            "name": "Dina Altrash",
+            "department": "Libarary",
+            "campus": "amsbarsha",
+            "section": "Librararian"
+        },
+        {
+            "id": 290,
+            "name": "Gracia Daaboul",
+            "department": "Curriculum",
+            "campus": "amskhawaneej",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 291,
+            "name": "Mona Bou Hamdan",
+            "department": "Co-Ordinator",
+            "campus": "amskhawaneej",
+            "section": "Administration"
+        },
+        {
+            "id": 292,
+            "name": "Sarah Jnad",
+            "department": "ART",
+            "campus": "amsbarsha",
+            "section": "Head of Section"
+        },
+        {
+            "id": 293,
+            "name": "Aline Barakat",
+            "department": "Co-Ordinator",
+            "campus": "amskhawaneej",
+            "section": "Administration"
+        },
+        {
+            "id": 294,
+            "name": "Khaled Abdul Rahim",
+            "department": "ICT",
+            "campus": "amsbarsha",
+            "section": "Administration"
+        },
+        {
+            "id": 295,
+            "name": "",
+            "department": "Kg Section",
+            "campus": "",
+            "section": ""
+        },
+        {
+            "id": 296,
+            "name": "Nadine Zayoun",
+            "department": "Kg Section",
+            "campus": "amsbarsha",
+            "section": "Head of Section"
+        },
+        {
+            "id": 297,
+            "name": "Amer Alameddine",
+            "department": "Administration",
+            "campus": "amsbarsha",
+            "section": "Head of Section Grs.9-12 Boys"
+        },
+        {
+            "id": 298,
+            "name": "Reda Jichi",
+            "department": "English",
+            "campus": "amskhawaneej",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 299,
+            "name": "Nardine Taha",
+            "department": "Head of Section",
+            "campus": "amsbarsha",
+            "section": "Grade 1-3"
+        },
+        {
+            "id": 300,
+            "name": "Charlotte Raad",
+            "department": "ART",
+            "campus": "amsgarhoud",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 301,
+            "name": "Nour Mounzer",
+            "department": "ART",
+            "campus": "amsbarsha",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 302,
+            "name": "Rasha Bou Karroum",
+            "department": "Science",
+            "campus": "amskhawaneej",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 303,
+            "name": "Dalal Ismael",
+            "department": "ART",
+            "campus": "amsbarsha",
+            "section": "Grade 4-12 Girls"
+        },
+        {
+            "id": 304,
+            "name": "",
+            "department": "",
+            "campus": "",
+            "section": "Counselor"
+        },
+        {
+            "id": 305,
+            "name": "Jina Houmani",
+            "department": "Career Counselor",
+            "campus": "amsbarsha",
+            "section": "Administration"
+        },
+        {
+            "id": 306,
+            "name": "",
+            "department": "Activity",
+            "campus": "",
+            "section": ""
+        },
+        {
+            "id": 307,
+            "name": "Peter Ibrahim",
+            "department": "Activity",
+            "campus": "amsgarhoud",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 308,
+            "name": "Perla Farhat",
+            "department": "ART",
+            "campus": "amsbarsha",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 309,
+            "name": "Carole Hiar",
+            "department": "Chief Academic Officer",
+            "campus": "amskhawaneej",
+            "section": "Secretary"
+        },
+        {
+            "id": 310,
+            "name": "Jana el Ghoussaini",
+            "department": "ART",
+            "campus": "amsgarhoud",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 311,
+            "name": "",
+            "department": "ART-Boys Section",
+            "campus": "",
+            "section": ""
+        },
+        {
+            "id": 312,
+            "name": "Nancy Aziz",
+            "department": "ART-Boys Section",
+            "campus": "amsbarsha",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 313,
+            "name": "",
+            "department": "",
+            "campus": "",
+            "section": "ICT"
+        },
+        {
+            "id": 314,
+            "name": "Nada Seriddine",
+            "department": "Administration",
+            "campus": "amsbarsha",
+            "section": "ICT"
+        },
+        {
+            "id": 315,
+            "name": "Germaine Bawab",
+            "department": "Administration",
+            "campus": "amsbarsha",
+            "section": "Secretary"
+        },
+        {
+            "id": 316,
+            "name": "Dana Berri",
+            "department": "Career Counselor",
+            "campus": "amsbarsha",
+            "section": "Counselor"
+        },
+        {
+            "id": 317,
+            "name": "Eliana Bahem",
+            "department": "Head of Section",
+            "campus": "amsbarsha",
+            "section": "Grade 1-3"
+        },
+        {
+            "id": 318,
+            "name": "Yaser Alhaj Khalaf",
+            "department": "IE",
+            "campus": "amskhawaneej",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 319,
+            "name": "",
+            "department": "Science Lab",
+            "campus": "",
+            "section": ""
+        },
+        {
+            "id": 320,
+            "name": "",
+            "department": "",
+            "campus": "",
+            "section": "Science Lab"
+        },
+        {
+            "id": 321,
+            "name": "Reinad Abu Rabah",
+            "department": "Science Lab",
+            "campus": "amsbarsha",
+            "section": "Science Lab"
+        },
+        {
+            "id": 322,
+            "name": "Nour Nasr",
+            "department": "Activity",
+            "campus": "amsbarsha",
+            "section": "Co-Ordinator"
+        },
+        {
+            "id": 323,
+            "name": "",
+            "department": "",
+            "campus": "",
+            "section": "Principal Personal Assisstent"
+        },
+        {
+            "id": 324,
+            "name": "Maya Wehbe",
+            "department": "Administration",
+            "campus": "amsgarhoud",
+            "section": "Principal Personal Assisstent"
+        },
+        {
+            "id": 325,
+            "name": "Bayan Al Khatib",
+            "department": "Administration",
+            "campus": "amsgarhoud",
+            "section": "Head of Section"
+        },
+        {
+            "id": 326,
+            "name": "Simon Ayoub",
+            "department": "Operation",
+            "campus": "amsgarhoud",
+            "section": "Administration"
+        },
+        {
+            "id": 327,
+            "name": "DC-Miscellaneous-AMB",
+            "department": "",
+            "campus": "amsbarsha",
+            "section": ""
+        },
+        {
+            "id": 328,
+            "name": "DC-Miscellaneous-AMG",
+            "department": "",
+            "campus": "amsgarhoud",
+            "section": ""
+        },
+        {
+            "id": 329,
+            "name": "DC-Miscellaneous-AMK",
+            "department": "",
+            "campus": "amskhawneej",
+            "section": ""
+        },
+        {
+            "id": 330,
+            "name": "Simon Ayoub",
+            "department": "Operation",
+            "campus": "amskhawneej",
+            "section": "Administration"
+        },
+        {
+            "id": 331,
+            "name": "Stephanie Shoucair",
+            "department": "Director ofEngagement& Alumni Relations",
+            "campus": "amsi",
+            "section": "Administration"
+        },
+        {
+            "id": 332,
+            "name": "Salman Amer",
+            "department": "Science Lab",
+            "campus": "amsbarsha",
+            "section": "Administration"
+        }
+    ],
+    "message": "Request Profiles fetched successfully"
+}

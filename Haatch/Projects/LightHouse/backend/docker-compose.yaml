@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  lighthouse_db:
+    image: mongo
+    ports:
+      - $MONGODB_MACHINE_PORT:$MONGODB_PORT
+    volumes:
+      - lighthouse-db-volume:/data/db
+  lighthouse_server:
+    depends_on:
+      - lighthouse_db
+    build: ./app
+    restart: unless-stopped
+    env_file: ./.env
+    ports:
+      - $NODE_PORT:$NODE_MACHINE_PORT
+    stdin_open: true
+    tty: true
+    volumes:
+      - lighthouse-server-volume:/app/uploads
+
+volumes: 
+  lighthouse-db-volume:
+  lighthouse-server-volume:

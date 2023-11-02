@@ -1,0 +1,41 @@
+dc_jobbinding : 1933/1933 (id) imported
+
+dc_jobprofile : 31648/31648 (id) imported 
+
+dc_materials : 13/13 (id) imported
+
+dc_operators : 4/4 (id) imported
+
+dc_paper : 24/24 (id) imported
+
+dc_pricetable : 1/1 (Only id other fields are empty) imported
+
+dc_printcovers : 7153/7153 (id) imported
+
+dc_printerpaper : 125/125 (id) imported
+
+dc_printers : 8/8 (id) imported
+
+dc_printpages : 31018/31018 (id) imported
+
+dc_requestprofile : 332/332 (id) imported
+
+web_users : 2/2 (id) imported
+
+
+
+
+Old_table - New_table connection
+
+(1) dc_jobbinding -> finishing_and_bindings : id (int) -> id (int) , jobid (int) -> job_id (int) , binding_type (varchar(45)) -> binding_type_id (int) , binding_operator (varchar(45)) -> binding_operator_id (int) , binding_rqstdate (datetime) -> request_date (varchar(255)) , binding_completedate (datetime) -> completed_date (varchar(255)) , binding_status (varchar(45)) -> binding_status_id (int) , binding_pagecount (int) -> binding_page_count (int), binding_quantity (int) -> binding_quantity (int) , binding_material (varchar(45)) -> binding_material_id (int) , binding_reqPerforation (tinyint or boolean) -> require_perforation (tinyint or boolean) , binding_jobCost (decimal) -> unit_cost_id (int)
+
+
+
+binding_type (Direct Value) -> binding_type_id (From binding_types table) 
+
+
+
+
+Replace binding_type with id from binding_types table and insert into binding_type_id of finishing_and_binding table
+
+Replace binding_status with id from binding_status table  and insert in to binding_status_id of finishing_and_binding table

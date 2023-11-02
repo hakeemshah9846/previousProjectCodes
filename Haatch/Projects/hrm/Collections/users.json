@@ -1,0 +1,348 @@
+[{
+  "_id": {
+    "$oid": "645e3a777483b6558146f854"
+  },
+  "personel_details": {
+    "first_name": "John",
+    "last_name": "Doe",
+    "short_name": "Miky",
+    "image": "uploads/users/user_image.jpg",
+    "gender": "Male",
+    "phone": "1234567890",
+    "personel_email": "john@gmail.com",
+    "emergency_contact": "9874563210",
+    "pan": "HC123"
+  },
+  "contact_details": {
+    "current_address": {
+      "address": "2483 Boundary Street Jacksonville, FL 32202",
+      "country": "United States",
+      "state": "California",
+      "pincode": 32202
+    },
+    "permanent_address": {
+      "address": "2483 Boundary Street Jacksonville, FL 32202",
+      "country": "United States",
+      "state": "California",
+      "pincode": 32202
+    }
+  },
+  "official_details": {
+    "employee_code": "1234",
+    "job_title": "Senior Developer",
+    "department": {
+      "$oid": "645e18097483b6558146f81e"
+    },
+    "official_email": "johnofficial@gmail.com",
+    "date_of_join": "12-05-2023",
+    "profile_privacy": {
+      "private": false,
+      "public": true
+    }
+  },
+  "account_details": [
+    {
+      "bank_name": "Goldman Sachs",
+      "account_no": "123456789",
+      "ifsc": "1234",
+      "branch_name": "New York",
+      "account_holder": "John Doe",
+      "_id": {
+        "$oid": "646d020fc1297ca0f5d5230b"
+      }
+    },
+    {
+      "bank_name": "JPMorgan Chase",
+      "account_no": "987456123",
+      "ifsc": "9874",
+      "branch_name": "New York",
+      "account_holder": "John Doe",
+      "_id": {
+        "$oid": "646d020fc1297ca0f5d5230c"
+      }
+    }
+  ],
+  "salary": [
+    {
+      "label": "Basic salary",
+      "value": "50000",
+      "_id": {
+        "$oid": "646d020fc1297ca0f5d5230d"
+      }
+    },
+    {
+      "label": "House rent allowance",
+      "value": "10000",
+      "_id": {
+        "$oid": "646d020fc1297ca0f5d5230e"
+      }
+    },
+    {
+      "label": "Conveyance",
+      "value": "5000",
+      "_id": {
+        "$oid": "646d020fc1297ca0f5d5230f"
+      }
+    },
+    {
+      "label": "Medical allowance",
+      "value": "5000",
+      "_id": {
+        "$oid": "646d020fc1297ca0f5d52310"
+      }
+    }
+  ],
+  "skills": [
+    "nodejs",
+    "mongodb",
+    "express",
+    "react"
+  ],
+  "email": "johnofficial@gmail.com",
+  "password": "$2a$12$1IXd0lNkaA.sHAgzRC9KtePaK4wdOFug6trjUSOooKySyFOYT39rW",
+  "last_login": "2023-05-23T18:13:28+00:00",
+  "password_token": "string",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2023-05-23T18:12:31.743Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-23T18:13:28.319Z"
+  }
+},{
+  "_id": {
+    "$oid": "645e3a987483b6558146f855"
+  },
+  "personel_details": {
+    "first_name": "James",
+    "last_name": "Doe",
+    "short_name": "Michle",
+    "image": "uploads/users/user_image.jpg",
+    "gender": "Male",
+    "phone": "1234567890",
+    "personel_email": "james@gmail.com",
+    "emergency_contact": "9874563210",
+    "pan": "HC123",
+    "blood_group": "A+"
+  },
+  "contact_details": {
+    "current_address": {
+      "address": "2483 Boundary Street Jacksonville, FL 32202",
+      "country": "United States",
+      "state": "California",
+      "pincode": 32202
+    },
+    "permanent_address": {
+      "address": "2483 Boundary Street Jacksonville, FL 32202",
+      "country": "United States",
+      "state": "California",
+      "pincode": 32202
+    }
+  },
+  "official_details": {
+    "employee_code": "1234",
+    "job_title": "Manager",
+    "department": {
+      "$oid": "645e183a7483b6558146f820"
+    },
+    "employee_type": {
+      "$oid": "645e1fcdb92bb17740482c2a"
+    },
+    "profile_status": {
+      "$oid": "645e25247483b6558146f827"
+    },
+    "official_email": "jamesofficial@gmail.com",
+    "date_of_join": "12-05-2023",
+    "profile_privacy": {
+      "private": false,
+      "public": true
+    }
+  },
+  "account_details": [
+    {
+      "bank_name": "Goldman Sachs",
+      "account_no": "123456789",
+      "ifsc": "1234",
+      "branch_name": "New York",
+      "account_holder": "James Doe",
+      "_id": {
+        "$oid": "646d020fc1297ca0f5d52312"
+      }
+    },
+    {
+      "bank_name": "JPMorgan Chase",
+      "account_no": "987456123",
+      "ifsc": "9874",
+      "branch_name": "New York",
+      "account_holder": "James Doe",
+      "_id": {
+        "$oid": "646d020fc1297ca0f5d52313"
+      }
+    }
+  ],
+  "salary": [
+    {
+      "label": "Basic salary",
+      "value": "50000",
+      "_id": {
+        "$oid": "646d020fc1297ca0f5d52314"
+      }
+    },
+    {
+      "label": "House rent allowance",
+      "value": "10000",
+      "_id": {
+        "$oid": "646d020fc1297ca0f5d52315"
+      }
+    },
+    {
+      "label": "Conveyance",
+      "value": "5000",
+      "_id": {
+        "$oid": "646d020fc1297ca0f5d52316"
+      }
+    },
+    {
+      "label": "Medical allowance",
+      "value": "5000",
+      "_id": {
+        "$oid": "646d020fc1297ca0f5d52317"
+      }
+    }
+  ],
+  "skills": [
+    "leadership",
+    "communication",
+    "problem solving",
+    "decision making"
+  ],
+  "email": "jamesofficial@gmail.com",
+  "password": "$2a$12$cxfuPWHObypHGtRzBm7QQeLpQK97jM4NgLrJTRzn8PGHG.JxdZfr2",
+  "last_login": "12-05-2023",
+  "password_token": "string",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2023-05-23T18:12:31.744Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-23T18:12:31.744Z"
+  }
+},{
+  "_id": {
+    "$oid": "645e3aab7483b6558146f856"
+  },
+  "personel_details": {
+    "first_name": "Jane",
+    "last_name": "Doe",
+    "short_name": "Rocky",
+    "image": "uploads/users/user_image.jpg",
+    "gender": "Male",
+    "phone": "1234567890",
+    "personel_email": "jane@gmail.com",
+    "emergency_contact": "9874563210",
+    "pan": "HC123",
+    "blood_group": "A+"
+  },
+  "contact_details": {
+    "current_address": {
+      "address": "2483 Boundary Street Jacksonville, FL 32202",
+      "country": "United States",
+      "state": "California",
+      "pincode": 32202
+    },
+    "permanent_address": {
+      "address": "2483 Boundary Street Jacksonville, FL 32202",
+      "country": "United States",
+      "state": "California",
+      "pincode": 32202
+    }
+  },
+  "official_details": {
+    "employee_code": "1234",
+    "job_title": "Admin",
+    "department": {
+      "$oid": "645e182c7483b6558146f81f"
+    },
+    "employee_type": {
+      "$oid": "645e1fcdb92bb17740482c2d"
+    },
+    "profile_status": {
+      "$oid": "645e25247483b6558146f827"
+    },
+    "official_email": "janeofficial@gmail.com",
+    "date_of_join": "12-05-2023",
+    "profile_privacy": {
+      "private": false,
+      "public": true
+    }
+  },
+  "account_details": [
+    {
+      "bank_name": "Goldman Sachs",
+      "account_no": "123456789",
+      "ifsc": "1234",
+      "branch_name": "New York",
+      "account_holder": "Jane Doe",
+      "_id": {
+        "$oid": "646d020fc1297ca0f5d52319"
+      }
+    },
+    {
+      "bank_name": "JPMorgan Chase",
+      "account_no": "987456123",
+      "ifsc": "9874",
+      "branch_name": "New York",
+      "account_holder": "Jane Doe",
+      "_id": {
+        "$oid": "646d020fc1297ca0f5d5231a"
+      }
+    }
+  ],
+  "salary": [
+    {
+      "label": "Basic salary",
+      "value": "50000",
+      "_id": {
+        "$oid": "646d020fc1297ca0f5d5231b"
+      }
+    },
+    {
+      "label": "House rent allowance",
+      "value": "10000",
+      "_id": {
+        "$oid": "646d020fc1297ca0f5d5231c"
+      }
+    },
+    {
+      "label": "Conveyance",
+      "value": "5000",
+      "_id": {
+        "$oid": "646d020fc1297ca0f5d5231d"
+      }
+    },
+    {
+      "label": "Medical allowance",
+      "value": "5000",
+      "_id": {
+        "$oid": "646d020fc1297ca0f5d5231e"
+      }
+    }
+  ],
+  "skills": [
+    "problem solving",
+    "entrepreneurship",
+    "multitasking",
+    "resource management"
+  ],
+  "email": "janeofficial@gmail.com",
+  "password": "$2a$12$HjMPUI45OAyePe/sw8Jt7ebM7cekQoSULQpik1sqrKnXYCDorQO9S",
+  "last_login": "12-05-2023",
+  "password_token": "string",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2023-05-23T18:12:31.744Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-23T18:12:31.744Z"
+  }
+}]

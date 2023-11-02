@@ -1,0 +1,59 @@
+doubts:
+
+1) models -> usermodel.js -> line no: 106 : 
+
+why findOneAndUpdate in mongodDB for new users
+if user not active and blocked
+
+
+
+
+2) utils -> send-email.js -> line_no-7 :
+
+why join multiple emails for a single user for registering, how can email be an object
+
+
+3) utils -> send-email.js -> line_no-12 :
+
+In smtp transporter object process.env.port is 2525 and secure will be always false
+
+
+4) app -> modeos -> userModel.js -> line_no-131 : 
+
+repeated error.message in if condition
+
+5)app -> modeos -> userModel.js -> line_no-186 : 
+
+repeated error.message in if condition
+
+
+6)app -> utils -> access-control.js -> line_no-13 : 
+
+why split authheader
+
+7)app -> routes -> authRoutes -> line_no-15 :
+
+why use setAccessControl('1,2,3,4') instead of setAccessControl('*')
+
+
+
+
+database seeding,migration
+mongoosejs cli package docs
+seed all seed files
+create collection
+test hide collection api
+
+login
+admin@hatch.in
+#admin123
+
+update -> 
+
+
+
+
+
+71-collection-hiding-api
+ 
+

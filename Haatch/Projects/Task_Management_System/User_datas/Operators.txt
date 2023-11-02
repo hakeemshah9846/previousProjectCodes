@@ -1,0 +1,808 @@
+{
+    "first_name" : "Nasheed",
+    "last_name" : "Chekkath",
+    "email" : "nasheedChekkath@gmail.com",
+    "phone" : "1234567890",
+    "role" : "13", //Fetch id from role fetch api
+    "image" : "",
+    "isOperator" : "true",
+    "operator_id" : "1",
+    "isSupervisor" : "true"
+    }
+"new_password" : "Nasheed@123",
+{
+    "email" : "nasheedChekkath@gmail.com",
+    "password" : "Nasheed@123"
+}
+
+
+
+
+
+
+
+
+
+{
+    "first_name" : "Nifras",
+    "last_name" : "U",
+    "email" : "nifraz@gmail.com",
+    "phone" : "1234567890",
+    "role" : "12", //Fetch id from role fetch api
+    "image" : "",
+    "isOperator" : "true",
+    "operator_id" : "2"
+    }
+
+{
+    "email" : "nifraz@gmail.com",
+    "password" : "Nifras@123"
+}
+
+
+
+
+
+
+
+
+
+{
+    "first_name" : "Shareef",
+    "last_name" : "C",
+    "email" : "shareef@gmail.com",
+    "phone" : "1234567890",
+    "role" : "12", //Fetch id from role fetch api
+    "image" : "",
+    "isOperator" : "true",
+    "operator_id" : "3"
+    }
+
+{
+    "email" : "shareef@gmail.com",
+    "password" : "Shareef@123"
+}
+
+
+
+
+
+
+
+
+
+{
+    "first_name" : "Rizwan",
+    "last_name" : "Null",
+    "email" : "rizwan@gmail.com",
+    "phone" : "1234567890",
+    "role" : "12", //Fetch id from role fetch api
+    "image" : "",
+    "isOperator" : "true",
+    "operator_id" : "4"
+    }
+
+
+{
+    "email" : "rizwan@gmail.com",
+    "password" : "Rizwan@123"
+}
+
+
+
+
+
+
+
+
+let { count, rows } = await finishing_and_bindings.findAndCountAll(
+            {
+              where: { binding_operator_id: operator_id },
+              include: [
+                {
+                  model: binding_types,
+                  as: "binding_type",
+                  attributes: ["binding_type"],
+                },
+                {
+                  model: binding_status,
+                  as: "binding_status",
+                  attributes: ["status"],
+                },
+              ],
+              raw: true,
+              attributes: { exclude: ["createdAt", "updatedAt"] },
+            }
+          );
+  
+          // rows.unshift({total : count});
+        
+  
+          let finishing_and_binding_data = await Promise.all(rows.map(async (e) => {
+  
+  
+            // console.log("Finishing and binding data : ", finishing_and_binding_data);
+            console.log("Binding_operator_id : ", e.binding_operator_id);
+  
+            if (e.binding_operator_id !== 0 && e.binding_operator_id !=='') {
+              
+              let binding_operator_id = Number(e.binding_operator_id);
+              //Fetching operator of finishing and binding table
+              let operator = (await operatorsModel.findOne({where : {id : binding_operator_id}, attributes : ['operator_name']})).getDataValue('operator_name');
+              e.binding_operator = operator;
+            }else {
+              e.binding_operator = "No operator found";
+            }
+  
+  
+  
+            if(e.material_id !== 0 && e.material_id !== '') {
+  
+              //Fetching material from materials table by id from finishing and binding table
+              console.log("Binding material id : ", e.material_id);
+              let material = (await materialsModel.findOne({where : {id : e.material_id},attributes : ['name']})).getDataValue('name');
+              e.binding_material = material;
+            }else {
+              e.binding_material = "NO materials found"
+            }
+  
+            return e;
+  
+          
+          }));
+  
+          finishing_and_binding_data.unshift({total : count});
+
+
+
+
+
+Executing (default): SELECT count(*) AS `count` FROM `job_profiles` AS `job_profile` WHERE (`job_profile`.`deletedAt` IS NULL AND `job_profile`.`job_title` LIKE '%Kg Sh\n%');
+Executing (default): SELECT `id`, `job_id`, `job_title`, `requested_by_id`, `requested_by_entity_id`, `requested_by_department_id`, `requested_by_section_id`, `job_type_id`, `job_req_comment`, `document_type_id`, `document_name`, `document_mode_id`, `requested_delivery_date`, `job_req_for`, `job_status_id`, `confidentiality`, `require_sample`, `require_edits`, `delivery_mode_id`, `deliver_to_id`, `deliver_to_entity_id`, `deliver_to_department_id`, `deliver_to_section_id`, `deliver_to_location`, `require_cover`, `require_finishing_and_binding`, `job_requested_on`, `job_completed_on` FROM `job_profiles` AS `job_profile` WHERE (`job_profile`.`deletedAt` IS NULL AND `job_profile`.`job_title` LIKE '%Kg Sh\n%') ORDER BY `job_profile`.`id` DESC LIMIT 0, 10;
+
+
+
+
+
+
+
+
+
+
+
+
+          // //Fetching details from jobs table
+          // let operator_jobs = await Promise.all(
+          //   items.map(async (e) => {
+          //     if(e == null) {
+                
+          //       console.log("Current job id : ", e);
+          //     }
+
+          //     where.id = e;
+
+          //     console.log("Where : ",where);
+
+          //     const job_details = await jobsModel.findOne({
+          //       // where: { id: e },
+          //       where,
+          //       attributes: [
+          //         "id",
+          //         "job_id",
+          //         "job_title",
+          //         "requested_by_id",
+          //         "requested_by_entity_id",
+          //         "requested_by_department_id",
+          //         "requested_by_section_id",
+          //         "job_type_id",
+          //         "job_req_comment",
+          //         "document_type_id",
+          //         "document_name",
+          //         "document_mode_id",
+          //         "requested_delivery_date",
+          //         "job_req_for",
+          //         "job_status_id",
+          //         "confidentiality",
+          //         "require_sample",
+          //         "require_edits",
+          //         "delivery_mode_id",
+          //         "deliver_to_id",
+          //         "deliver_to_entity_id",
+          //         "deliver_to_department_id",
+          //         "deliver_to_section_id",
+          //         "deliver_to_location",
+          //         "require_cover",
+          //         "require_finishing_and_binding",
+          //         "job_requested_on",
+          //         "job_completed_on",
+          //       ],
+          //     });
+
+          //     if(job_details === null) {
+          //       console.log("Job details null");
+          //       console.log("Job id : ",e);
+          //     }else {
+
+              
+
+          //     // const totalPages = Math.ceil(count / pageSize);
+
+          //     // let data = await Promise.all(rows.map(async(e) => {
+
+          //       let jobsData = {};
+          //       jobsData.id = job_details.id;
+          //       // jobsData.job_id = job_details.job_id;
+          //       jobsData.job_title = job_details.job_title;
+  
+          //       // console.log("Jobs_data befor fetching requested client profile : ", jobsData);
+          //       //Fetching client details from request_profiles table
+          //       // let requested_client_profile = await clientsModel.findOne({
+          //       //   where: { id: job_details.requested_by_id },
+          //       //   include: [
+          //       //     {
+          //       //       model: departmentsModel,
+          //       //       as: "department",
+          //       //       attributes: ["department"],
+          //       //     },
+          //       //     { model: campusModel, as: "campus", attributes: ["campus"] },
+          //       //     {
+          //       //       model: sectionsModel,
+          //       //       as: "section",
+          //       //       attributes: ["section"],
+          //       //     },
+          //       //   ],
+          //       //   raw: true,
+          //       //   attributes: { exclude: ["createdAt", "updatedAt"] },
+          //       // });
+          //       // if (requested_client_profile == null) {
+          //       //   jobsData.requested_client = "No client found";
+          //       // } else {
+          //       //   // let requested_client_details = {};
+          //       //   // requested_client_details.id = requested_client_profile.id;
+          //       //   // requested_client_details.name = requested_client_profile.name;
+          //       //   // requested_client_details.email = requested_client_profile.email;
+          //       //   // requested_client_details.contact_no = requested_client_profile.contact_no;
+          //       //   jobsData.requested_client = requested_client_profile;
+          //       // }
+  
+          //       //No entities to fetch
+  
+          //       //Fetcing requested client department from departments table
+  
+          //       // if (job_details.requested_by_department_id == 0) {
+          //       //   jobsData.requested_by_department = "No department found";
+          //       // } else {
+          //       //   let department_data = await departmentsModel.findOne({
+          //       //     where: { id: job_details.requested_by_department_id },
+          //       //     attributes: ["department"],
+          //       //   });
+          //       //   // console.log("Department_data : ", department_data);
+          //       //   if (department_data == null) {
+          //       //     jobsData.requested_by_department = "Nothing found";
+          //       //   } else {
+          //       //     jobsData.requested_by_department = department_data.department;
+          //       //   }
+          //       // }
+  
+          //       // if (job_details.requested_by_section_id == 0) {
+          //       //   jobsData.requested_by_section = "No section found";
+          //       // } else {
+          //       //   //Fetching requested client section from sections table
+  
+          //       //   let section_data = await sectionsModel.findOne({
+          //       //     where: { id: job_details.requested_by_section_id },
+          //       //     attributes: ["section"],
+          //       //   });
+          //       //   //  console.log("Section_data : ", section_data);
+  
+          //       //   if (section_data == null) {
+          //       //     jobsData.requested_by_section = "Nothing found";
+          //       //   } else {
+          //       //     jobsData.requested_by_section = section_data.section;
+          //       //   }
+          //       // }
+  
+          //       // //Fetching job type from job types table
+          //       // let job_types_data = await jobTypesModel.findOne({
+          //       //   where: { id: job_details.job_type_id },
+          //       //   attributes: ["id", "job_type"],
+          //       // });
+          //       // jobsData.job_type_id = job_types_data.id;
+          //       // //  console.log("job_types_data : ",job_types_data);
+          //       // if (job_types_data == null) {
+          //       //   jobsData.job_type = "Nothing found";
+          //       // }
+          //       // jobsData.job_type = job_types_data.job_type;
+  
+          //       // jobsData.job_req_comment = job_details.job_req_comment;
+  
+          //       // //Fetching document type from document types table
+          //       // let document_types_data = await documentTypesModel.findOne({
+          //       //   where: { id: job_details.document_type_id },
+          //       //   attributes: ["document_type"],
+          //       // });
+          //       // //  console.log("document_types_data : ",document_types_data);
+  
+          //       // if (document_types_data == null) {
+          //       //   jobsData.document_type = "Nothing found";
+          //       // } else {
+          //       //   jobsData.document_type = document_types_data.document_type;
+          //       // }
+  
+          //       // jobsData.document_name = job_details.document_name;
+  
+          //       // if (job_details.document_mode_id == 1) {
+          //       //   jobsData.document_mode = "";
+          //       // } else {
+          //       //   //Fetching document modes form document_modes table
+          //       //   let document_modes_data = await documentModesModel.findOne({
+          //       //     where: { id: e.document_mode_id },
+          //       //     attributes: ["document_mode"],
+          //       //   });
+          //       //   //  console.log("document_modes_data : ",document_modes_data);
+  
+          //       //   if (document_modes_data == null) {
+          //       //     jobsData.document_mode = "Nothing found";
+          //       //   } else {
+          //       //     jobsData.document_mode = document_modes_data.document_mode;
+          //       //   }
+          //       // }
+  
+          //       jobsData.requested_delivery_date =
+          //         job_details.requested_delivery_date;
+  
+          //       // jobsData.job_req_for = job_details.job_req_for;
+  
+          //       if (job_details.job_status_id == 4) {
+          //         jobsData.job_status = "";
+          //       } else {
+          //         //Fetching job_status from job_status table
+          //         let job_status_data = await jobStatusModel.findOne({
+          //           where: { id: job_details.job_status_id },
+          //           attributes: ["id", "status"],
+          //         });
+  
+          //         // jobsData.job_status_id = job_status_data.id;
+          //         // console.log("job_status_data : ",job_status_data);
+  
+          //         if (job_status_data == null) {
+          //           jobsData.status = "Nothing found";
+          //         } else {
+          //           jobsData.status = job_status_data.status;
+          //         }
+          //       }
+  
+          //       // jobsData.confidentiality = job_details.confidentiality;
+  
+          //       // // '','','','','deliver_to_entity_id','','','','','','',''
+  
+          //       // jobsData.require_sample = job_details.require_sample;
+  
+          //       // jobsData.require_edits = job_details.require_edits;
+  
+          //       // if (job_details.delivery_mode_id == 8) {
+          //       //   jobsData.delivery_mode = "";
+          //       // } else {
+          //       //   //Fetching delivery modes from delivery_modes table
+          //       //   let deliver_modes_data = await deliveryModesModel.findOne({
+          //       //     where: { id: job_details.delivery_mode_id },
+          //       //     attributes: ["id", "delivery_mode"],
+          //       //   });
+          //       //   jobsData.delivery_mode_id = deliver_modes_data.id;
+          //       //   // console.log("deliver_modes_data : ",deliver_modes_data);
+  
+          //       //   if (deliver_modes_data == null) {
+          //       //     jobsData.delivery_mode = "Nothing found";
+          //       //   } else {
+          //       //     jobsData.delivery_mode = deliver_modes_data.delivery_mode;
+          //       //   }
+          //       // }
+  
+          //       // //Fetching client details for delivery from request_profiles table
+          //       // //Fetching client details from request_profiles table
+          //       // let deliver_to_client_profile = await clientsModel.findOne({
+          //       //   where: { id: job_details.deliver_to_id },
+          //       //   include: [
+          //       //     {
+          //       //       model: departmentsModel,
+          //       //       as: "department",
+          //       //       attributes: ["id", "department"],
+          //       //     },
+          //       //     {
+          //       //       model: campusModel,
+          //       //       as: "campus",
+          //       //       attributes: ["id", "campus"],
+          //       //     },
+          //       //     {
+          //       //       model: sectionsModel,
+          //       //       as: "section",
+          //       //       attributes: ["id", "section"],
+          //       //     },
+          //       //   ],
+          //       //   raw: true,
+          //       //   attributes: { exclude: ["createdAt", "updatedAt"] },
+          //       // });
+          //       // if (deliver_to_client_profile == null) {
+          //       //   jobsData.deliver_to_client = "No client found";
+          //       // } else {
+          //       //   // let requested_client_details = {};
+          //       //   // requested_client_details.id = requested_client_profile.id;
+          //       //   // requested_client_details.name = requested_client_profile.name;
+          //       //   // requested_client_details.email = requested_client_profile.email;
+          //       //   // requested_client_details.contact_no = requested_client_profile.contact_no;
+          //       //   jobsData.deliver_to_client = deliver_to_client_profile;
+          //       // }
+  
+          //       // //Fetching department for delivery
+          //       // if (job_details.deliver_to_department_id == 32) {
+          //       //   jobsData.deliver_to_department = "";
+          //       // } else if (job_details.deliver_to_department_id == 15) {
+          //       //   jobsData.deliver_to_department = "English";
+          //       // } else {
+          //       //   let deliver_to_department = await departmentsModel.findOne({
+          //       //     where: { id: job_details.deliver_to_department_id },
+          //       //     attributes: ["department"],
+          //       //   });
+          //       //   // console.log("deliver_to_department : ",deliver_to_department);
+  
+          //       //   if (deliver_to_department == null) {
+          //       //     jobsData.deliver_to_department = "Nothing found";
+          //       //   } else {
+          //       //     jobsData.deliver_to_department =
+          //       //       deliver_to_department.department;
+          //       //   }
+          //       // }
+  
+          //       // //Fetching section for delivery
+  
+          //       // if (job_details.deliver_to_section_id == 0) {
+          //       //   jobsData.deliver_to_section = "No section found";
+          //       // } else if (job_details.deliver_to_section_id == 18) {
+          //       //   jobsData.deliver_to_section = "Principal Personal Assisstent";
+          //       // } else {
+          //       //   let deliver_to_section = await sectionsModel.findOne({
+          //       //     where: { id: job_details.deliver_to_section_id },
+          //       //     attributes: ["section"],
+          //       //   });
+          //       //   // console.log("deliver_to_section : ",deliver_to_section);
+  
+          //       //   if (deliver_to_section == null) {
+          //       //     jobsData.deliver_to_section = "Nothing found";
+          //       //   } else {
+          //       //     jobsData.deliver_to_section = deliver_to_section.section;
+          //       //   }
+          //       // }
+  
+          //       // jobsData.deliver_to_location = job_details.deliver_to_location;
+          //       // jobsData.require_cover = job_details.require_cover;
+          //       // jobsData.require_finishing_and_binding =
+          //       //   job_details.require_finishing_and_binding;
+          //       jobsData.job_requested_on = job_details.job_requested_on;
+          //       jobsData.job_completed_on = job_details.job_completed_on;
+  
+          //       // console.log(`Job_id : ${e.id} and jobsData : ${jobsData}`);
+  
+          //       // console.log("Job_id : ",e.id,"   Jobs data after fetching request client profile : ", jobsData);
+  
+          //       //Fetching finishing and binding datas
+          //       // let require_finishing_and_binding
+  
+          //       let finishing_and_binding_data =
+          //         await finishing_and_bindings.findOne({
+          //           where: { [Op.and] : [{job_id: job_details.id },{binding_operator_id : operator_id}]},
+          //           // include: [
+          //           //   {
+          //           //     model: binding_types,
+          //           //     as: "binding_type",
+          //           //     attributes: ["binding_type"],
+          //           //   },
+          //           //   {
+          //           //     model: binding_status,
+          //           //     as: "binding_status",
+          //           //     attributes: ["status"],
+          //           //   },
+          //           // ],
+          //           raw: true,
+          //           // attributes: { exclude: ["createdAt", "updatedAt"] },
+          //           attributes : ['id']
+          //         });
+  
+          //       // console.log("Binding operator_id : ", finishing_and_binding_data.getDataValue('binding_operator_id') );
+  
+          //       //Getting corresponding data values for id fields
+          //       // if (finishing_and_binding_data !== null) {
+          //       //   // console.log("Finishing and binding data : ", finishing_and_binding_data);
+          //       //   // console.log("Binding_operator_id : ", finishing_and_binding_data.binding_operator_id);
+  
+          //       //   //Fetching operator of finishing and binding table
+          //       //   let operator = await opetatorsModel.findOne({
+          //       //     where: { id: finishing_and_binding_data.binding_operator_id },
+          //       //     attributes: ["operator_name"],
+          //       //   });
+          //       //   let operator_value;
+          //       //   if (operator !== null) {
+          //       //     operator_value = operator.getDataValue("operator_name");
+          //       //   } else {
+          //       //     operator_value = null;
+          //       //   }
+          //       //   finishing_and_binding_data.binding_operator = operator_value;
+  
+          //       //   //Fetching material from materials table by id from finishing and binding table
+          //       //   let material = await materialsModel.findOne({
+          //       //     where: { id: finishing_and_binding_data.material_id },
+          //       //     attributes: ["name"],
+          //       //   });
+          //       //   let material_value;
+  
+          //       //   if (material !== null) {
+          //       //     material_value = material.getDataValue("name");
+          //       //   } else {
+          //       //     material_value = null;
+          //       //   }
+          //       //   finishing_and_binding_data.binding_material = material_value;
+          //       // }
+  
+          //       jobsData.finishingAndBinding = finishing_and_binding_data;
+  
+          //       //Fetching print_cover datas
+          //       let print_cover_data = await printCoverModel.findOne({
+          //         where: { [Op.and]:[{job_id: job_details.id},{print_cover_operator_id : operator_id}] },
+          //         // include: [
+          //         //   {
+          //         //     model: print_cover_status,
+          //         //     as: "print_cover_status",
+          //         //     attributes: ["status"],
+          //         //   },
+          //         //   {
+          //         //     model: print_cover_colors,
+          //         //     as: "print_cover_color",
+          //         //     attributes: ["print_cover_color"],
+          //         //   },
+          //         // ],
+          //         raw: true,
+          //         // attributes: { exclude: ["createdAt", "updatedAt"] },
+          //         attributes : ['id']
+          //       });
+  
+          //       // if (print_cover_data !== null) {
+          //       //   //Fetching operator details from id saved in print cover table
+          //       //   if (print_cover_data.print_cover_operator_id !== "") {
+          //       //     let printCoverOperatorId = Number(
+          //       //       print_cover_data.print_cover_operator_id
+          //       //     );
+  
+          //       //     // console.log("printCoverOperatorId : ", printCoverOperatorId);
+          //       //     // console.log("Type of (printCoverOperatorId) : ", typeof(printCoverOperatorId));
+  
+          //       //     let operator = await opetatorsModel.findOne({
+          //       //       where: { id: printCoverOperatorId },
+          //       //       attributes: ["operator_name"],
+          //       //     });
+          //       //     if (operator !== null) {
+          //       //       let operator_value = operator.getDataValue("operator_name");
+          //       //       print_cover_data.print_cover_operator = operator_value;
+          //       //     } else {
+          //       //       print_cover_data.print_cover_operator = null;
+          //       //     }
+          //       //   } else {
+          //       //     print_cover_data.print_cover_operator =
+          //       //       "No operator found (id blank)";
+          //       //   }
+  
+          //       //   //Fetching materials details from id saved in print cover table
+          //       //   if (print_cover_data.print_cover_material_id !== "") {
+          //       //     let printCoverMaterialId = Number(
+          //       //       print_cover_data.print_cover_material_id
+          //       //     );
+  
+          //       //     // console.log("printCoverMaterialId : ", printCoverMaterialId);
+          //       //     // console.log("Type of (printCoverMaterialId) : ", typeof(printCoverMaterialId));
+  
+          //       //     let material = await materialsModel.findOne({
+          //       //       where: { id: printCoverMaterialId },
+          //       //       attributes: ["name"],
+          //       //     });
+          //       //     if (material !== null) {
+          //       //       let material_value = material.getDataValue("name");
+          //       //       print_cover_data.print_cover_material = material_value;
+          //       //     } else {
+          //       //       print_cover_data.print_cover_material = null;
+          //       //     }
+          //       //   } else {
+          //       //     print_cover_data.print_cover_material =
+          //       //       "No material found (id blank)";
+          //       //   }
+  
+          //       //   //Fetching print_cover_machine details from printers table
+  
+          //       //   // console.log("print_cover_data.print_cover_machine_id : ", print_cover_data.print_cover_machine_id);
+  
+          //       //   if (print_cover_data.print_cover_machine_id !== "") {
+          //       //     // console.log("print_cover_data.print_cover_machine_id : ", print_cover_data.print_cover_machine_id);
+  
+          //       //     let printCoverMachineId =
+          //       //       print_cover_data.print_cover_machine_id;
+  
+          //       //     if (isNaN(printCoverMachineId)) {
+          //       //       printCoverMachineId = Number(
+          //       //         print_cover_data.print_cover_machine_id
+          //       //       );
+          //       //     } else {
+          //       //       printCoverMachineId =
+          //       //         print_cover_data.print_cover_machine_id;
+          //       //     }
+  
+          //       //     // console.log("printCoverMachineId : ", printCoverMachineId);
+          //       //     // console.log("Type of (printCoverMachineId) : ", typeof(printCoverMachineId));
+  
+          //       //     let machine = await printers.findOne({
+          //       //       where: { id: printCoverMachineId },
+          //       //       attributes: ["name"],
+          //       //     });
+          //       //     if (machine !== null) {
+          //       //       let machine_value = machine.getDataValue("name");
+          //       //       print_cover_data.print_cover_machine = machine_value;
+          //       //     } else {
+          //       //       print_cover_data.print_cover_machine = null;
+          //       //     }
+          //       //   } else {
+          //       //     print_cover_data.print_cover_machine =
+          //       //       "No machines found (id blank)";
+          //       //   }
+          //       // }
+  
+          //       // //Fetching print_cover_sides data from print cover sides table
+          //       // //   if(print_cover_data.print_cover_sides !== ''){
+  
+          //       // //     console.log("print_cover_data.print_cover_machine_id : ", print_cover_data.print_cover_machine_id);
+  
+          //       // //     let printCoverMachineId = print_cover_data.print_cover_machine_id;
+  
+          //       // //     if(isNaN(printCoverMachineId)) {
+  
+          //       // //        printCoverMachineId = Number(print_cover_data.print_cover_machine_id);
+          //       // //     }else {
+  
+          //       // //        printCoverMachineId = print_cover_data.print_cover_machine_id;
+  
+          //       // //     }
+  
+          //       // //     console.log("printCoverMachineId : ", printCoverMachineId);
+          //       // //     console.log("Type of (printCoverMachineId) : ", typeof(printCoverMachineId));
+  
+          //       // //     let machine = (await printers.findOne({where : {id : printCoverMachineId},attributes : ['name']}));
+          //       // //     if(machine !== null) {
+  
+          //       // //       let machine_value = machine.getDataValue('name');
+          //       // //       print_cover_data.print_cover_machine = machine_value;
+          //       // //     }else {
+          //       // //       print_cover_data.print_cover_machine = null;
+          //       // //     }
+          //       // //   }else {
+          //       // //     print_cover_data.print_cover_machine = "No machines found (id blank)";
+          //       // //   }
+          //       // // }
+  
+          //       jobsData.print_cover = print_cover_data;
+  
+          //       //Fetching print_pages datas from print_pages table
+  
+          //       let print_pages_data = await print_pages.findOne({
+          //         where: { [Op.and]:[{job_id: job_details.id},{job_print_operator_id : operator_id}] },
+          //         // include: [
+          //         //   {
+          //         //     model: print_pages_colors,
+          //         //     as: "print_pages_color",
+          //         //     attributes: ["job_print_color"],
+          //         //   },
+          //         // ],
+          //         raw: true,
+          //         // attributes: { exclude: ["createdAt", "updatedAt"] },
+          //         attributes : ['id']
+          //       });
+  
+          //       // if (print_pages_data !== null) {
+          //       //   //Fetching print_pages machine details from printers table
+  
+          //       //   if (
+          //       //     print_pages_data.print_pages_machine !== "" &&
+          //       //     print_pages_data.print_pages_machine !== 0
+          //       //   ) {
+          //       //     let printPagesMachineId = Number(
+          //       //       print_pages_data.print_pages_machine
+          //       //     );
+  
+          //       //     // console.log("printPagesMachineId : ", printPagesMachineId);
+          //       //     // console.log("Type of (printPagesMachineId) : ", typeof(printPagesMachineId));
+  
+          //       //     let machine = await printers.findOne({
+          //       //       where: { id: printPagesMachineId },
+          //       //       attributes: ["name"],
+          //       //     });
+          //       //     if (machine !== null) {
+          //       //       let machine_value = machine.getDataValue("name");
+          //       //       print_pages_data.print_pages_printer_machine =
+          //       //         machine_value;
+          //       //     } else {
+          //       //       print_pages_data.print_pages_printer_machine = null;
+          //       //     }
+          //       //   } else {
+          //       //     print_pages_data.print_pages_printer_machine =
+          //       //       "No machine found (id blank or 0)";
+          //       //   }
+  
+          //       //   //Fetching print_pages operator details from operators table
+  
+          //       //   if (
+          //       //     print_pages_data.job_print_operator_id !== "" &&
+          //       //     print_pages_data.job_print_operator_id !== 0
+          //       //   ) {
+          //       //     let printPagesOperatorId = Number(
+          //       //       print_pages_data.job_print_operator_id
+          //       //     );
+  
+          //       //     // console.log("printPagesOperatorId : ", printPagesOperatorId);
+          //       //     // console.log("Type of (printPagesOperatorId) : ", typeof(printPagesOperatorId));
+  
+          //       //     let operator = await opetatorsModel.findOne({
+          //       //       where: { id: printPagesOperatorId },
+          //       //       attributes: ["operator_name"],
+          //       //     });
+          //       //     if (operator !== null) {
+          //       //       let operator_value = operator.getDataValue("operator_name");
+          //       //       print_pages_data.print_pages_operator = operator_value;
+          //       //     } else {
+          //       //       print_pages_data.print_pages_operator = null;
+          //       //     }
+          //       //   } else {
+          //       //     print_pages_data.print_pages_operator =
+          //       //       "No operator found (id blank or 0)";
+          //       //   }
+  
+          //       //   //Fetching print_pages paper_type details from papers table
+  
+          //       //   if (
+          //       //     print_pages_data.paper_type_id !== "" &&
+          //       //     print_pages_data.paper_type_id !== 0
+          //       //   ) {
+          //       //     let printPagesPaperTypeId = Number(
+          //       //       print_pages_data.paper_type_id
+          //       //     );
+  
+          //       //     // console.log("printPagesPaperTypeId : ", printPagesPaperTypeId);
+          //       //     // console.log("Type of (printPagesPaperTypeId) : ", typeof(printPagesPaperTypeId));
+  
+          //       //     let paper = await papers.findOne({
+          //       //       where: { id: printPagesPaperTypeId },
+          //       //       attributes: ["paper_name"],
+          //       //     });
+          //       //     // console.log("Paper_datas : ", paper);
+          //       //     if (paper !== null) {
+          //       //       let paper_value = paper.getDataValue("paper_name");
+          //       //       print_pages_data.print_pages_paper_type = paper_value;
+          //       //     } else {
+          //       //       print_pages_data.print_pages_paper_type = null;
+          //       //     }
+          //       //   } else {
+          //       //     print_pages_data.print_pages_paper_type =
+          //       //       "No paper type found (id blank or 0)";
+          //       //   }
+          //       // }
+  
+          //       jobsData.print_pages = print_pages_data;
+  
+          //       // console.log("Current job id : ", e);
+  
+          //       // console.log("Jobs Data ....: ", jobsData);
+  
+          //       return jobsData;
+          //     }
+          //   })
+          // );
+
+          // allJobs.finishing_and_binding_jobs = finishing_and_binding_jobs;
+
+          // console.log("Finishing and binding jobs : ", finishing_and_binding_jobs);
+
+          //Fetching print_cover jobs
+
